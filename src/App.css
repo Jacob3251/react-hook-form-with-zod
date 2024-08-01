@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff2b;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-heading {
+  display: inline-block;
+  text-align: start;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.form-controller {
+  margin-bottom: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.form-label {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.form-input {
+  padding: 10px 10px;
+  font-size: 20px;
+}
+span {
+  color: red;
+}
